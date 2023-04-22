@@ -11,7 +11,7 @@ fileJs.write("words = [\n")
 count = 0
 for w in words:
   count += 1
-  fileJs.write('  "' + w.strip() + '", \n');
+  fileJs.write('  "' + w.strip() + '", \n')
 
 fileJs.write("];\n")
 
