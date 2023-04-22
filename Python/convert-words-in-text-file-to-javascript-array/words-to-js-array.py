@@ -1,19 +1,19 @@
 words = []
 
 # open JS file for writing
-fileJs = open('words.js', 'w')
+file_js = open('words.js', 'w')
 
 # read words file and transform all words into a JS array string
-fileTxt = open('words.txt', 'r')
-words = fileTxt.readlines()
+file_txt = open('words.txt', 'r')
+words = file_txt.readlines()
 
-fileJs.write("words = [\n")
+file_js.write("words = [\n")
 count = 0
 for w in words:
   count += 1
-  fileJs.write('  "' + w.strip() + '", \n')
+  file_js.write('  "' + w.strip() + '", \n')
 
-fileJs.write("];\n")
+file_js.write("];\n")
 
-fileTxt.close()
-fileJs.close()
+file_txt.close()
+file_js.close()
