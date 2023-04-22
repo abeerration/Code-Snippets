@@ -1,7 +1,6 @@
 import os
-import lxml.html as lh          # https://lxml.de/installation.html
+import lxml.html as lh    # https://lxml.de/installation.html
 
-# iterate through all files
 for file in os.listdir():
   if file.endswith(".html"):
     file_path = file
