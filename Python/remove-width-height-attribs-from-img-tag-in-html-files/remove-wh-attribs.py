@@ -1,13 +1,11 @@
 import os
-import lxml.html as lh
+import lxml.html as lh          # https://lxml.de/installation.html
 
 # iterate through all files
 for file in os.listdir():
-  # Check whether file is in text format or not
   if file.endswith(".html"):
     file_path = file
     print(file_path)
-    # call read text file function
     with open(file_path, 'r') as f:
       html = f.read()
       if (html):
