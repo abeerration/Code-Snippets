@@ -1,3 +1,3 @@
 # Code-Snippets
 
-  Miscellaneous code samples in various programming languages
+  Miscellaneous code snippets in various programming languages
