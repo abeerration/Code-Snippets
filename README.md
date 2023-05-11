@@ -1,3 +1,8 @@
-# Code-Snippets
+# Code Snippets
 
-  Miscellaneous code snippets in various programming languages
+<div align="center">
+  <img src="banner.jpg" align="center"/>
+  </sub>
+</div>
+
+Miscellaneous code snippets in various programming languages
