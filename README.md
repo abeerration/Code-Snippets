@@ -6,6 +6,7 @@
 
 Miscellaneous code snippets in various programming languages
 
+---
 
 ## Python
 
